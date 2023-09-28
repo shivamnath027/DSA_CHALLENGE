@@ -17,6 +17,7 @@ int main(){
             cout<<k<<" ";
         }
         cout<<endl;
+        
     }
     return 0;
 }

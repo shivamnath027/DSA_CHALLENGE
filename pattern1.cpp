@@ -9,6 +9,7 @@ int main(){
             cout<<j*j<<" ";
         }
         cout<<endl;
+        
     }
     return 0;
 }

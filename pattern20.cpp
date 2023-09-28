@@ -19,6 +19,7 @@ int main(){
             cout<<"* ";
         }
         cout<<endl;
+        
     }
     for(int i=n;i>=1;i--){
         for(int k=i;k>=1;k--){
