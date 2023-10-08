@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 int main(){
-    int num;
+    string num;
     cout<<"N: ";
     cin>>num;
     int rem=0;
