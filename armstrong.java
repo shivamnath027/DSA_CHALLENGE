@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 
 class armstrong
 {
@@ -16,7 +15,7 @@ class armstrong
     }
 }
 class Solution{
-    static int isNarcissistic(int N){
+    int isNarcissistic(int N){
         // code her
         int sum=0,rem,n=N,count=0;
         while(n!=0){

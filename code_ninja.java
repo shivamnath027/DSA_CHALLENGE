@@ -19,6 +19,7 @@ public class code_ninja
         for(int i=0;i<list.size();i++){
             System.out.println(list.get(i));
         }
+		s.close();
 	}
 	public static int fact(int n){
 	    if(n==0 || n==1){
