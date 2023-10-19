@@ -18,6 +18,7 @@ int main(){
         }
         cout<<endl;
     }
+    
     space = 2*n-2;
     for(int i=1;i<=n;i++){
         for(int k=1;k<=i;k++){
