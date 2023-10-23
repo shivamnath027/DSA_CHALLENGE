@@ -1,4 +1,4 @@
-class Solution {
+class sqrtx {
     public int mySqrt(int x) {
         if(x<2){
             return x;

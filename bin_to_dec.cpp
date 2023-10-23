@@ -5,7 +5,7 @@ int main(){
     int num;
     cout<<"N: ";
     cin>>num;
-    int ans=0,rem=1,mul=1; //In commented , take mul=0 to get ans
+    int ans=0,rem=1,mul=1; //In comment , take mul=0 to get ans
     while(num>0){
         rem = num%10;
         num=num/10;
