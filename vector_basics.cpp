@@ -12,7 +12,7 @@ int main(){
     //3
     //INITIALIZING ALL THE 4 ELEMENTS with value 2
     vector<int> v(4,2);
-    //INSERTING VALUES------>
+    //INSERTING VALUES------------------------------------------------------------.>
     v.push_back(4);
     v.push_back(8);
     v.push_back(5);
@@ -31,13 +31,37 @@ int main(){
     //for(int i=0;i<n;i++)
         //cin>>v[i]
     
-    //How to remove value from vector
+    //How to remove value from vector--------------------------------------------------------->>
     //1
     // v.pop_back(element)   TIME COMPLEXITY--> O(1)
     //2 ------> To remove everything
     // v.clear()
     //to be specific with the position
     // v.erase(v.begin()+2); remove element with index 2    TIME COMPLEXITY -> O(n)
-    
 
+    //METHODS------------------------------------------------------>>
+    
+    // //v : 1,2,3,4
+    // cout<< v.front();   // 1
+    // cout<< v.back();    // 4
+    // cout<< v.empty(); // 1 if empty
+    // cout<< v.at(2);  //returns value at index 2
+
+
+    //ITERATOR IN A VECTOR------------------------------------------------------------------->>
+    // v = 4,6,8,10
+
+    // auto IS USED IN THIS FOR LOOP TO SELECT ANY DATA TYPE THAT IS PRESENT IN THE VECTOR
+
+    // for(auto it=v.begin();it!=v.end();it++){
+        //cout<< *it << " ";
+    //}
+
+
+    //YE DONO METHOD INDEX PE POINT KRTA H
+    // v.rbegin(); reverse Begin     // 10       ka index 3 
+
+    //v.rend(); reverse end      //4 ke pehle point krega yaani ki -1
+
+    
 }
