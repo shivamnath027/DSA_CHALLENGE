@@ -63,5 +63,13 @@ int main(){
 
     //v.rend(); reverse end      //4 ke pehle point krega yaani ki -1
 
+    //--------------------------------------------SORTING------------------------>>
+
+    // v = 2, 3 , 1 ,7 ,4
+
+    // sort(v.begin(),v.end());    1,2,3,4,7  //SORT IN ASCENDING ORDER
+
+    // sort(v.begin(),v.end(), greater<int>());  //SORT IN DESCENDING NUMBER 7 4 3 2 1 
+
     
 }
