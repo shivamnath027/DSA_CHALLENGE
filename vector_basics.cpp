@@ -16,4 +16,9 @@ int main(){
     v.push_back(4);
     v.push_back(8);
     v.push_back(5);
+
+    // The Size will be increased by multiplying by 2
+    //for ex: if current size if 1, after you try to push elements it will
+    // make the size 2, then it will make it 4, then 8 then 16 and so on
+    
 }
