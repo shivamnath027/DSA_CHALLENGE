@@ -21,4 +21,15 @@ int main(){
     //for ex: if current size if 1, after you try to push elements it will
     // make the size 2, then it will make it 4, then 8 then 16 and so on
     
+
+    // vector<int> v = {2,4,6,8,10};
+    // ASK THE USER
+    // cin>>n;
+    // vector<int> v(n);
+
+    // INSERTING THROUGH RAM
+    //for(int i=0;i<n;i++)
+        //cin>>v[i]
+    
+    
 }
