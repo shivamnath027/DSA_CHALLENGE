@@ -31,5 +31,13 @@ int main(){
     //for(int i=0;i<n;i++)
         //cin>>v[i]
     
+    //How to remove value from vector
+    //1
+    // v.pop_back(element)   TIME COMPLEXITY--> O(1)
+    //2 ------> To remove everything
+    // v.clear()
+    //to be specific with the position
+    // v.erase(v.begin()+2); remove element with index 2    TIME COMPLEXITY -> O(n)
     
+
 }
