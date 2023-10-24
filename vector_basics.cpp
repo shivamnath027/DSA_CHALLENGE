@@ -71,5 +71,8 @@ int main(){
 
     // sort(v.begin(),v.end(), greater<int>());  //SORT IN DESCENDING NUMBER 7 4 3 2 1 
 
+    //BINARY SEARCH
+
+    // binary_search(v.begin(),v.end(),key_to_search);
     
 }
