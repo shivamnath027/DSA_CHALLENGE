@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
+    
     int num;
     cout<<"N: ";
     cin>>num;
@@ -13,5 +14,5 @@ int main(){
     }
     cout<<"\nBinary: "<<ans<<endl;
     return 0;
-    
+
 }
