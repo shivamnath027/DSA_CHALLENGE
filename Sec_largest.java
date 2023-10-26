@@ -8,6 +8,7 @@ public class Sec_largest {
                 max_index=i;
             }
         }
+        
         int sec_max=Integer.MIN_VALUE;
         for(int i=0;i<n;i++){
             if(a[i]>sec_max && i!=max_index){
