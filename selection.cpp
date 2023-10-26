@@ -21,6 +21,7 @@ int main(){
             }
         }
         swap(a[min_index],a[j]);
+        
     }
     //     j++;
     // }
