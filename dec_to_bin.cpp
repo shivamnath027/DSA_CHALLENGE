@@ -13,4 +13,5 @@ int main(){
     }
     cout<<"\nBinary: "<<ans<<endl;
     return 0;
+    
 }
