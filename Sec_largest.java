@@ -15,7 +15,7 @@ public class Sec_largest {
                 sec_max = a[i];
             }
         }
-        
+
         int min = Integer.MAX_VALUE;
         int min_index=0;
         for(int i=0;i<n;i++){
@@ -34,5 +34,6 @@ public class Sec_largest {
         ans[0] = sec_max;
         ans[1] = sec_min;
         return ans;
+        
     }
 }
