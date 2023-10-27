@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 int main(){
+
     int num;
     cout<<"N: ";
     cin>>num;
@@ -30,4 +31,5 @@ int main(){
     }
     cout<<"\nHexaDecimal: "<<ans<<endl;
     return 0;
+    
 }
