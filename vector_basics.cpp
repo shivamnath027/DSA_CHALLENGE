@@ -76,6 +76,4 @@ int main(){
     // binary_search(v.begin(),v.end(),key_to_search);
 
     //find() same syntax
-
-
 }
