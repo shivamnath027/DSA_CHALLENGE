@@ -36,5 +36,6 @@ class Solution{
             return 0;
         }
     }
+    
 }
 //see only the function the driver code is imported from GFG as  Narcisist number
