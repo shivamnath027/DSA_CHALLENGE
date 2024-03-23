@@ -6,12 +6,11 @@ int main()
     cout << "Enter the size: ";
     cin >> n;
     int count = 0;
-    for (int i = 1; i <= n; i++)
+    int count = 0;
+    while (n >= 5)
     {
-        if (i % 5 == 0)
-        {
-            count++;
-        }
+        count += n / 5;
+        n = n / 5;
     }
     cout << count << endl;
 }
