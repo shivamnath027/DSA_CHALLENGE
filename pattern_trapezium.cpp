@@ -28,7 +28,7 @@ int main()
         cout << endl;
     }
 
-    ///////////////
+    //////////////
     star = 1;
     for (int i = n; i > 0; i--)
     {
